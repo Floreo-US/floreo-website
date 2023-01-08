@@ -232,8 +232,8 @@
         ssPreloader();
         ssPrettyPrint();
         ssSlickSlider();
-        ssModal();
-        ssFinalCountdown();
+        //ssModal();
+        //ssFinalCountdown();
         ssTabs();
         ssAlertBoxes();
         ssSmoothScroll();
