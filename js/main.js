@@ -71,7 +71,7 @@
 
    /* modal
     * ---------------------------------------------------- */ 
-    const ssModal = function() {
+    /*const ssModal = function() {
 
         const modal = document.querySelector(".modal");
         const trigger = document.querySelector(".modal-trigger");
@@ -96,12 +96,12 @@
         window.addEventListener("click", windowOnClick);
         window.addEventListener("keyup", pressEsc);
 
-    };
+    };*/
 
 
    /* final countdown
     * ------------------------------------------------------ */
-    const ssFinalCountdown = function() {
+    /*const ssFinalCountdown = function() {
 
         const finalDate = '2022/04/07';
 
@@ -116,7 +116,7 @@
             $(this).html(event.strftime(str));
 
         });
-    };
+    };*/
 
 
    /* tabs
@@ -232,8 +232,8 @@
         ssPreloader();
         ssPrettyPrint();
         ssSlickSlider();
-        //ssModal();
-        //ssFinalCountdown();
+        // ssModal();
+        // ssFinalCountdown();
         ssTabs();
         ssAlertBoxes();
         ssSmoothScroll();
